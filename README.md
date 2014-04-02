@@ -55,3 +55,8 @@ implement the `bin/bottles` command-line application.
 ```plain
 $ bin/bottles
 ```
+
+## Controller Refactoring
+
+See the [Tag Cloud Refactoring](http://tutorials.jumpstartlab.com/projects/tag_cloud_refactoring.html) tutorial.
+
