@@ -6,6 +6,7 @@ Refactoring Workshop
 * Lockdown Tests
 * Extract Class
 * Controller Refactoring
+* OSS Contributions (if time permits)
 
 ## Setup
 
@@ -59,4 +60,12 @@ $ bin/bottles
 ## Controller Refactoring
 
 See the [Tag Cloud Refactoring](http://tutorials.jumpstartlab.com/projects/tag_cloud_refactoring.html) tutorial.
+
+## OSS Contributions
+
+* [Tracks on GitHub](https://github.com/TracksApp/tracks)
+* [Tracks on Code Climate](https://codeclimate.com/github/TracksApp/tracks)
+
+If there is time left at the end of the day, fork and clone the real tracks
+repository, and find some improvement that can be made.
 
