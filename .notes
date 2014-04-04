@@ -1,0 +1,11 @@
+# approval test
+
+FileUtils.touch('./approved.html')
+File.open('./received.html', 'w') do |file|
+file.write last_response.body
+end
+
+expected = File.read('./approved.html')
+actual = File.read('./received.html')
+
+assert_equal expected, actual
