@@ -1,5 +1,7 @@
 module Bottles
   class App < Sinatra::Base
+    MAX_BOTTLES = 99
+
     helpers do
       def verse(number)
         case number
@@ -16,7 +18,7 @@ module Bottles
     end
 
     get '/' do
-      99.downto(0).map {|n| verse(n) + "\n"}.join.gsub("\n", "<br>")
+      MAX_BOTTLES.downto(0).map {|n| verse(n) + "\n"}.join.gsub("\n", "<br>")
     end
   end
 end
